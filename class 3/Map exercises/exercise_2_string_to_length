@@ -1,0 +1,5 @@
+words = ["python", "AI", "map"]
+
+length = list(map(lambda x: len(x), words))
+
+print(length)
