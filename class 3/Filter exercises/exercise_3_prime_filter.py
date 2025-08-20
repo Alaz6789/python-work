@@ -1,10 +1,23 @@
 def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):  # check up to sqrt(n)
-        if n % i == 0:
-            return False
-    return True
+    total = 0
+    if int(n) < 2:
+        print("Not prime")
+        exit()
+    
+    else:
+        for x in range(2, int(n)):
+            integer = int(n) / x
 
-primes = list(filter(is_prime, range(2, 30)))
-print(primes)
+            if integer == round(integer, 0):
+                print("Not prime")
+                exit()
+
+            else:
+                total = total + 1
+
+        if total == int(n) - 2:
+            print("Is prime")
+            exit()
+
+num = input("Choose a number: ")
+is_prime(num)
