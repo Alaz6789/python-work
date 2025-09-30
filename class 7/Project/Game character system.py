@@ -60,6 +60,8 @@ Ar1.health = Ar1.health - Wd1.power
 Ar1.attack()
 Wr1.health = Wr1.health - Ar1.power
 
+print("")
+
 Wr1.defend()
 Wr1.defend()
 Ar1.defend()
