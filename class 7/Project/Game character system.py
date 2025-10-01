@@ -63,7 +63,7 @@ Wr1.health = Wr1.health - Ar1.power
 print("")
 
 Wr1.defend()
-Wr1.defend()
+Wd1.defend()
 Ar1.defend()
 
 print("")
