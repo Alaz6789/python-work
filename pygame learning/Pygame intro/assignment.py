@@ -29,7 +29,7 @@ while runningstatus:
 
     pygame.draw.circle(screen, BALL_COLOUR, (BALL_x, BALL_y), 30)
 
-    pygame.draw.rect(screen, RECTANGLE_COLOUR, (RECTANGLE_x, RECTANGLE_y, 30, 40))
+    pygame.draw.rect(screen, RECTANGLE_COLOUR, (RECTANGLE_x, RECTANGLE_y, 60, 80))
 
     pygame.display.update()
 
